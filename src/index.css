@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.handler {
+    width: 0.25rem;
+    cursor: ew-resize;
+}

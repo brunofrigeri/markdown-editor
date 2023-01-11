@@ -1,0 +1,12 @@
+.containter {
+    flex: 1;
+    min-width: 300px;
+    padding-top: 4rem;
+    padding-right: 4rem; 
+    padding-left: 4rem; 
+    max-height: 100vh;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+    background-color: #FAFAFA;
+}

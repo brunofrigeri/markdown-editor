@@ -1,0 +1,11 @@
+.container {
+    flex: 1 1 auto;
+    max-height: 100vh;
+    overflow-y: auto;
+    min-width: 300px;
+    color: white;
+    font-size: 1.125rem;
+    resize: none;
+    background-color: #2B3137;
+    padding: 4rem;
+}
