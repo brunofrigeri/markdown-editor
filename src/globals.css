@@ -5,3 +5,95 @@ textarea {
 textarea:focus {
   outline: 0
 }
+
+.prose h3,
+.prose h2,
+.prose h1 {
+  color: white;
+  margin: 0.25rem 0rem;
+}
+
+.prose p > code {
+  border-width: 1px;
+  border-radius: 0.125rem;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  opacity: 0.5;
+  background-color: #1E3F66;
+}
+
+.prose a {
+  color: #7096FF;
+  text-decoration: underline;
+}
+
+.prose p ,
+.prose li {
+  color: black;
+}
+
+.prose li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.prose pre {
+  background-color: #1E3F66;
+  opacity: 0.1;
+  padding: 0.5rem;
+  overflow: auto;
+  border: 1px solid #E5E7EB;
+}
+
+.prose code {
+  padding: 0px;
+  font-size: 0.75rem;
+}
+
+.token.keyword,
+.token.keyword.module {
+  color: #B677E3;
+}
+
+.token.property {
+  color: #ABD56F;
+}
+
+.token.boolean,
+.token.maybe-class-name {
+  color: #FB3D62;
+}
+
+.token.string {
+  color: #63A8A4;
+}
+
+.token.function,
+.token.property-access {
+  color: #D1A24E;
+}
+
+code[class*='language-'],
+pre[class*='language-'] {
+  color: #1F2937;
+}
+
+pre::-webkit-scrollbar {
+  display: none;
+}
+
+pre {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+.prose blockquote {
+  background: #F9F9F9;
+  border-left: 10px solid #CCCCCC;
+  padding: 0.5em;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.prose blockquote > p {
+  margin: 0
+}
