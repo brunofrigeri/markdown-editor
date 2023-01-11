@@ -1,12 +1,16 @@
-.containter {
+.preview_content {
     flex: 1;
     min-width: 300px;
-    padding-top: 4rem;
-    padding-right: 4rem; 
-    padding-left: 4rem; 
+    padding-top: 2rem;
+    padding-right: 2rem; 
+    padding-left: 2rem; 
     max-height: 100vh;
     overflow-y: auto;
     white-space: pre-wrap;
     word-break: break-all;
     background-color: #FAFAFA;
+}
+
+.article {
+    color: 'black'
 }

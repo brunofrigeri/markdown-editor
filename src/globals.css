@@ -1,0 +1,7 @@
+textarea {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+textarea:focus {
+  outline: 0
+}

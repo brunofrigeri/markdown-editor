@@ -27,9 +27,9 @@ const PreviewContent: React.FC<IPreviewContentProps> = ({ content }) => {
   }, [content])
 
   return (
-    <div id="preview" className="container">
+    <div id="preview" className="preview_content">
       <article
-        className="prose text-black"
+        className="prose article"
         dangerouslySetInnerHTML={{ __html: compiledContent }}
       />
     </div>

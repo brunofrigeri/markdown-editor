@@ -23,7 +23,7 @@ const MarkdownTextArea = ({ value, setValue }: MarkdownTextAreaProps) => {
       ref={inputRef}
       placeholder="Write your post content here..."
       value={value}
-      className="container"
+      className="markdown_text_area"
       onChange={(event) => setValue(event.currentTarget.value)}
       onKeyDown={handleTabKey}
     />

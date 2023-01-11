@@ -1,4 +1,4 @@
-.container {
+.markdown_text_area {
     flex: 1 1 auto;
     max-height: 100vh;
     overflow-y: auto;
@@ -7,5 +7,5 @@
     font-size: 1.125rem;
     resize: none;
     background-color: #2B3137;
-    padding: 4rem;
+    padding: 2rem;
 }
