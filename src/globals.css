@@ -18,8 +18,7 @@ textarea:focus {
   border-radius: 0.125rem;
   margin: 0.25rem;
   padding: 0.25rem;
-  opacity: 0.5;
-  background-color: #1E3F66;
+  background-color: rgb(30, 63, 102, 0.5);
 }
 
 .prose a {
@@ -38,8 +37,7 @@ textarea:focus {
 }
 
 .prose pre {
-  background-color: #1E3F66;
-  opacity: 0.1;
+  background-color: rgb(30,63,102,0.1);
   padding: 0.5rem;
   overflow: auto;
   border: 1px solid #E5E7EB;
