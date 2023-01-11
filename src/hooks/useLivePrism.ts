@@ -3,7 +3,6 @@ import Prism from 'prismjs'
 
 require('prismjs/components/prism-javascript')
 require('prismjs/components/prism-typescript')
-require('prismjs/components/prism-python')
 require('prismjs/components/prism-bash')
 require('prismjs/components/prism-css')
 require('prismjs/components/prism-jsx')
