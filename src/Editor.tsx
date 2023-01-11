@@ -3,12 +3,12 @@ import { TextArea, Preview } from './components'
 import { useMouseMove } from './hooks/useMouseMove'
 import './index.css'
 
-type MarkdownEditorProps = {
+type EditorProps = {
   value: string
   setValue: React.Dispatch<React.SetStateAction<string>>
 }
 
-const MarkdownEditor = ({ value, setValue }: MarkdownEditorProps) => {
+const Editor = ({ value, setValue }: EditorProps) => {
   useMouseMove()
 
   return (
@@ -20,4 +20,4 @@ const MarkdownEditor = ({ value, setValue }: MarkdownEditorProps) => {
   )
 }
 
-export default MarkdownEditor
+export default Editor

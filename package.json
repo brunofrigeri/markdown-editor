@@ -1,8 +1,12 @@
 {
   "name": "@brunofrigeri/markdown-editor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "author": "Bruno Frigeri",
   "license": "MIT",
   "scripts": {
@@ -15,6 +19,7 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/prismjs": "^1.26.0",
     "@types/react": "^18.0.26",
+    "react": "^18.2.0",
     "postcss": "^8.4.21",    
     "rollup": "^3.9.1",
     "rollup-plugin-dts": "^5.1.1",
@@ -29,8 +34,5 @@
     "remark": "^14.0.2",
     "remark-gfm": "^3.0.1",
     "remark-html": "^15.0.1"
-  },
-  "peerDependencies": {
-    "react": "^18.2.0"
   }
 }
