@@ -1,6 +1,5 @@
 import React from 'react'
-import MarkdownTextArea from './components/MarkdownTextArea'
-import PreviewContent from './components/PreviewContent'
+import { TextArea, Preview } from './components'
 import { useMouseMove } from './hooks/useMouseMove'
 import './index.css'
 
@@ -14,9 +13,9 @@ const MarkdownEditor = ({ value, setValue }: MarkdownEditorProps) => {
 
   return (
     <div className="container">
-      <MarkdownTextArea value={value} setValue={setValue} />
+      <TextArea value={value} setValue={setValue} />
       <div id="handlerMarkdownAndPreview" className="handler" />
-      <PreviewContent content={value} />
+      <Preview content={value} />
     </div>
   )
 }
