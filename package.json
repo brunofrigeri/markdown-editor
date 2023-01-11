@@ -24,20 +24,22 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/prismjs": "^1.26.0",
     "@types/react": "^18.0.26",
-    "react": "^18.2.0",
     "postcss": "^8.4.21",    
+    "remark": "^14.0.2",
+    "remark-gfm": "^3.0.1",
+    "remark-html": "^15.0.1",
     "rollup": "^3.9.1",
     "rollup-plugin-dts": "^5.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.4.1",
-    "typescript": "^4.9.4",
-    "remark": "^14.0.2",
-    "remark-gfm": "^3.0.1",
-    "remark-html": "^15.0.1"
+    "typescript": "^4.9.4"
   },
   "dependencies": {
     "prismjs": "^1.29.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   }
 }

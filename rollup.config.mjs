@@ -30,11 +30,11 @@ export default [
       resolve(),
       commonjs(),
       typescript({ tsconfig: './tsconfig.json' }),
-      terser(),
       postcss({
         plugins: [],
         extensions: ['.css'],
       }),
+      terser(),
     ],
     external: ['react', 'react-dom'],
   },
